@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    padding-top: 0px;
+    padding-right: 27px;
+ }
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px ;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    flex-direction: row;
+}
+body{
+        background: #1f242d;
+        animation: slideTop 1s ease forwards;
+}
+.logo{
+    font-size: 30px;
+    animation: slideright 1s ease forwards;
+}
+.leftnav a:hover{
+    color: rgb(13, 186, 198); 
+    text-shadow: 6px 7px 10px rgba(131, 235, 235, 0.863);
+ }
+.active{
+    color:rgb(0, 238, 255) ;
+}
+img{
+    padding-top: 150px;
+    padding-left: 50px;
+    height: 70px;
+    width: 70px;
+}
+.num{
+    font-size: 30px;
+    padding-left: 20px;
+    text-shadow: 6px 7px 10px rgba(255, 255, 255, 0.863);;
+}
+
+
+@keyframes slideTop {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+@keyframes slideright {
+    0%{
+        transform: translatex(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatex(0);
+        opacity: 1;
+    }
+    
+}
