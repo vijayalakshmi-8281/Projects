@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assests/netflix.png">
+</head>
+<body>
+   <div class="main">
+        <div class="head">
+            <div class="text">
+                    <a href="#" style="color: red; font-size: 30px; padding-left: 0;">NETFLIX</a>
+                    <a href="#">Home</a>
+                    <a href="#">TV shows</a>
+                    <a href="#">Movies</a>
+                    <a href="#">Recently Added</a>
+                    <a href="#">MyList</a>
+            </div>
+            <nav class="righttext">
+                <a href="#"><img style="padding-right:20px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAzdJREFUWEftl1moTlEUx3//EkX3gUQIcWV4Nj2IZKirrmTKvRKZHsibRBIPkiFPypjpwVCGIpKUzKUMeSFDRN2kjAlFWM6qfXQc3/32+T7hKuvtnLPX//zO2nsNR7QwUwvj4d8FMrMOwBRgAtAH6Bqi+xS4DxwHjkp6/StRj0bIzHoAK4BZQOvIyz4Cu4C1kpqqASsLZGZTk2jsKwCSf/cHYJqkk5VCNQtkZkuBdTnBK8Ax4BJwLzzrD4wAJgNDcusXSNpWCVRJIDNrBA5khO4CsyVdLSduZnXJ2dqRbFv3sM6AekmnikL9BGRmtcDt5By0CSK3koiMlvSqiKiZdQHOJx/UN6x/C9RKelHEvxTQUWBScH4IDJX0sohYusbMugE3gM7h3lZJC4to/ABkZgOAOxnHwZKuFxHKrzGzeuBEuP8Z6FIkSnkgT+/VQeSYpInVwGQidQ0YFK7nSNoT08sDXQaGBafpkg7GBCKHfDGwMaw5JGlaTC8P9BjoGZy6V1vcMhEamGRZuuU3Jfl1WcsDvQfaBo82kj7FBCIRag+k2flGkl9XBPQOaBc8aiT5ddVmZjWAp73bc0mdYmL5CD0IjdP9+knyplm15bL2gqSRMbE80FlgVHCaJ8kbZdVmZguALUGgUC3KAy1JztCGIHBa0riqaQAzO5dU7TQqiyRtjunlgXzO8W1LbbgkLwUVm5mNBc4ER0+WPpKexYRKtY7DYRBz3yde2IpU2OyLzMyHNy+K6RC3TNL6GIw/LwXUO7SPX2muvlX9AsAjYEDRElJ0/PD+NivW18L44fNPWlydyROlTpL3s6iVG9CWA2tyChfDgObnykuC+3tD9oPrA1pzlfgI0CDpS4woNsL6HL0TaBUTyj33Qd/HjzGZ+4eSKbNR0tdyWkWG/F7ASmBGATDfFk/tVaFC+9TZkAHYD8wsBxUFSsXMrKMP7smXjwf84HsGOYAfWm/KPsztkPS9bJiZ6+91iAyUF9v5kny8/ckKA1W4Zd+XNwO1W9LcvwLkLw1Q2z0yGYiSreS3RyhXMP2PJIXyn0nP5B/sjwKFaG0CmiSlPfPvAsXO4h+P0H+gWARiz1vcln0D2t0JNFhVypwAAAAASUVORK5CYII="/></a>
+                <a href="#" style="  text-decoration: none;color: #fff;padding-top: 20px; padding-right:10px;">DVD</a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAoRJREFUWEftl9urTVEUxn+fwh8gkeTFq1JCuRRJSh7k9kjkVlJKhCOX45ySywvyQCR5JCQpeSE6QklS4kGR24OQ8uA8GOY4zbVbe9nrYrftNu3xsptrz/mtb37zG2PMJTos1GF8+DcJmdkwYC2wBxgPPAYuA0clDaZVNjPf5CZgJTAdeAv0hXVnJFnZiZQqZGZjAvANYEoDsJfAAkmv/T8zGwlcB+Y3mPsAWCjpSxGpKoTuArMLQFytmZJ+mNkpYEPB3GuSFjdNyMymAo9SAAeAk8DS+OtH6bEbuBOUuRfHP4FlQb0BYCuwI4UxUdKrPFKFCpnZNuBIXHwhAK1KgMxsM3Aijr8Bz1ypOO6TtDc11/22JI7XSTrbLCHfeX9cfEjSzoyBXYEZGfDvbnxJX1OEDgPb47hH0sFmCbkf3BceVyUluxx6YGbLgYsZ8POSVmeIu9EXxWcbJZ2uTMjMRsfzHwtMANbExZ6yx4HazoERwK4M+JXgsaepZ6MAP94kzgFvgI/AJUmf0uvrPGRmk8MR3AQ81dsRTmqepOfJy7KEngBOqp1xX1KSDPWtw8y86g6PbHorspoLzIlzPfVvV1y3L84bDCb3gjoUWYVqpV1SadGMxt4f/J2A94ZlPi4NM2v4ro4n1HFH9hCYVqp3aycMSJqV56FJwC3Aa1A74n1M+xcNCUWTemFcEZtnMq8o4/4kyxLzO+56v1NJ+pzeeW4m5WVBVraQLJWzrApml1DNKzl1rqtQV6GiXtbNsnB7KOz2/51Cfr38W1fZD+GiP65RsyyqQ/6pUvfZ08JuW/fdVrWXOdkeYEtotN5wWxHvgGOSko/P3zArXVNbwaQqRpdQmVK/AGvZSTScmVTGAAAAAElFTkSuQmCC"></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAoNJREFUWEftl02ITlEYx3//lSJJZEH52FvYTD4WWLCxoRgx+dpggSiUWBhSs/FVZoUUhQgLsaMoRaPEgjWRIZENsvq7h6Nu79e5587QNM2zeXvvfT5+z3Oec+5zxAgTjTAeRheQ7QnAUWBVrPSN4rdX0o+6lR9ShWz3Azsagp+QtO+/AdkOSWwHtgDz2wR+AlyQdC4XLKtCtmcAV4DFFQPdAzZK+lBRv3pT214E3AEml5x/LfrnOfAyPpsLzAMmlXQ+AiskPasCValCtkOgR6VA74HdkkITN4ntdcAZYGp8+QnokvQmBZUEsj0ReAHMic5eFXDLJA12cm476N8v2YVKLpD0s5NdFaBDwLHo5G3MNCxDUmzPBp6WKrUt1ehVgF4Ds2L0lZJuJ0lKCra3AmfjowFJ7Xbmb5WOQLa7ioYciM4GJU3PgQm6tscBn4FwiAaZJin0VEtJAe2MzRmMz0sK2WZLkdjdsNOi4RpJN+sClfunT9LBbJo/VToddmW03SvpZF2g3sLf4Wh8RFL4ny22K/tJLVllR50ox4BSaziqK3QR2DTMTX1J0ubsXVYcaH3AgZJhx/Mj0dRrgWslnbZHSMtdZjt8qcOh+Ff6Je1K9UoCqtHncUn7G22agOLocLVKNrmALare3TjCtAIqnz0d1zsXKOjbvgz0tOvLFNBD4EGdwB1slgJL6gINM0uTu6bPUasKrY+D/L+GCf57JJX7tXkesj0e2FAMVdmzT2YG70Likr6X7ZITY2aQIavXAopX6HCDmNKG4EtxUZxZnDPfcglrAcXt2w1cbxNwtaRbuTBBvzZQhFoO7AEWxuCPi7vbKUnhxlpLhgRUK2LCaAwoVdVfxrj3JVvze34AAAAASUVORK5CYII="/></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAANNJREFUWEdjZBhkgHGQuYdh1EGEYmQ0hIZfCFn7veb984sh8j/DHylCvsMnz8jA8oyFjWH50U2in/GrwyMLdszPf2cZGBlUKXEMXO9/htss7EzG+ByFN1Gbe7xOY2D4N5MqjoEbwpR+cofoLFxm4nWQmcfzBkYGpnpqOug/w7/GUzskG0YdhCsERkOIUHobDaHRECIUAoTkR9PQaAgRCgFC8qNpaGSF0KBroA26JiwoPVCnkc/0n5GB6TnFjXxCCZQW8qM9V0KhOhpCoyFEKAQIyQMAKhqlJXLIac8AAAAASUVORK5CYII="/></a>
+            </nav>
+        </div>
+       <div class="maincontent">
+            <h2>Mobile Games</h2>
+            <div class="card">
+                <div class="pic">
+                 <img src="assests/solarity.jpeg">
+                 <p class="card-text">solitarie</p>
+                </div>
+                <div class="pic">
+                 <img src="assests/gta.jpeg">
+                <p class="card-text">GTA </p>
+                </div>
+                <div class="pic">
+                 <img src="assests/geek.jpeg">
+                <p class="card-text">GEEKED WEEK23</p>
+                </div>
+                <div class="pic">
+                 <img src="assests/ot.jpeg">
+                 <p class="card-text">Game Trailer</p>
+                 </div>
+                 <div class="pic">
+                    <img src="assests/st.jpeg">
+                    <p class="card-text">Stranger Things</p>
+                 </div>
+            </div>
+            <h2>Trending Movies</h2>
+          <div class="card">
+               <div class="pic">
+                    <img src="assests/mv1.jpeg">
+                    <p class="card-text">Animal : <br>action thriller romance</p>
+                </div> 
+               <div class="pic">
+                     <img src="assests/mv2.jpeg">
+                     <p class="card-text">OMG :<br> action adventure</p>
+               </div>
+                <div class="pic">
+                      <img src="assests/mv3.jpeg">
+                       <p class="card-text">We Can Be Heroes : <br> Child action</p>
+                </div>
+                <div class="pic">
+                       <img src="assests/mv4.jpeg">
+                        <p class="card-text">Major : <br> action suspence romance</p>
+                </div>
+                <div class="pic">
+                       <img src="assests/mv5.jpeg">
+                       <p class="card-text">Gumraah : <br> action suspence</p>
+                </div>
+           </div>
+        </div>
+    </div>
+    
+</body>
+</html>
